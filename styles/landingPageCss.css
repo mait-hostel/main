@@ -6,7 +6,8 @@
     padding: 0;
   }
   .body-div{
-margin: 1rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
   }
   .header{
 
@@ -82,12 +83,37 @@ margin: 1rem;
         padding:  1rem;
     }
 
- .hostel-detail_h1 {
+ .hostel-detail_h1  {
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin:0;
+  
+   font-size:2.5rem;
+   color:rgba(13, 25, 112, 0.768);
+  
     }
 
 
     .hostel-detail_paragraph{
-      font-family: 'Open Sans', sans-serif;
+      font-family: 'Mukta', sans-serif;
+      text-align: center;
+      font-size:large;
+      color:black;
+      
 
+
+    }
+
+    .hostel-detail_h2{
+      text-align: center;
+      font-family: 'Qwitcher Grypen', cursive;
+      
+      color: rgb(131, 96, 15);
+      margin-top: 0;
+      font-size:1rem ;
+    }
+    .hostel-detail{
+      margin: 3rem ;
+      background-color: rgb(227, 224, 224);
+      
     }
