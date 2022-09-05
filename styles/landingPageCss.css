@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0 ;
+    padding: 0;
+  }
+  .body-div{
+margin: 1rem;
+  }
+  .header{
+
+    background-color: rgb(44, 44, 90);
+  }
+  .headerdiv{
+    display: inline-block;
+  }
+.header-nav__items a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(52, 241, 52);
+}
+.header-nav{
+    
+        display: inline-block;
+        text-align: right;
+        width: calc(100vw - 12rem);
+    
+}
+
+.header-div__brand {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: rgb(206, 84, 84);
+    font-size: large;
+    font-weight: bold;
+  }
+  .header-nav{
+    
+    display: inline-block;
+    text-align: right;
+    width: calc(100vw - 12rem);
+
+}
+  .header-nav__items{
+    list-style-type: none;
+  }
+  .header-nav__item{
+    margin-right: 2rem;
+    display: inline-block;
+  }
+  .fee-head-elements{
+    border: 1px solid black;
+  }
+  .fee-row-elements{
+    text-align: center;
+    border: 1px solid black;
+  }
+ 
+  .hostel-detail a{
+    text-decoration: none;
+  }
+  .list-facilities{
+    list-style-type: none;
+   
+  }
+  .list-facility{
+    display: inline-block;
+  }
+  .link-div a{
+    color: red;
+  }
+    .link-div a:hover{
+      color: blue;
+    }
+    .footer-p{
+        color: white;
+        background-color: rgb(44, 44, 90);
+        text-align: center;
+        vertical-align: middle;
+        margin:0;
+        padding:  1rem;
+    }
+
+ .hostel-detail_h1 {
+  font-family: 'Open Sans', sans-serif;
+    }
+
+
+    .hostel-detail_paragraph{
+      font-family: 'Open Sans', sans-serif;
+
+    }
