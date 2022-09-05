@@ -6,8 +6,7 @@
     padding: 0;
   }
   .body-div{
-margin-top: 1rem;
-margin-bottom: 1rem;
+margin: 1rem;
   }
   .header{
 
@@ -88,8 +87,8 @@ margin-bottom: 1rem;
   text-align: center;
   margin:0;
   
-   font-size:2.5rem;
-   color:rgba(13, 25, 112, 0.768);
+   font-size:3.5rem;
+   color:rgba(4, 10, 56, 0.768);
   
     }
 
