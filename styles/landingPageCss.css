@@ -2,12 +2,32 @@
     box-sizing: border-box;
   }
   body{
+    background-color: #dcd9d9;
     margin: 0 ;
     padding: 0;
   }
   .body-div{
+    text-align: center;
+    align-items: center;
 margin: 1rem;
   }
+
+  .icon-size{
+    background-color: rgb(209, 230, 250);
+    border-radius: 1em;
+    padding-bottom: 2em;
+    padding-top: 1em;
+    width: 20%;
+      height: 4em;
+  }
+  .table-center{
+    background-color:rgb(218 185 225 / 83%);
+    margin-top:1em ;
+    margin-bottom:1em ;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .header{
 
     background-color: rgb(44, 44, 90);
@@ -53,6 +73,7 @@ margin: 1rem;
     border: 1px solid black;
   }
   .fee-row-elements{
+    padding: 1em;
     text-align: center;
     border: 1px solid black;
   }
@@ -65,13 +86,27 @@ margin: 1rem;
    
   }
   .list-facility{
-    display: inline-block;
+    
+   font-weight: bold;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    display: block;
   }
+  .link-divs{
+    border: 0.2em solid rgb(154, 154, 236);
+    margin: 1em;
+    background-color: rgb(44 44 90);
+    border-radius: 2em;
+  }
+ .link-div{
+  margin: 1em;
+ }
   .link-div a{
-    color: red;
+    
+    color: rgb(206, 84, 84);
   }
     .link-div a:hover{
-      color: blue;
+      color: white;
     }
     .footer-p{
         color: white;
@@ -81,6 +116,7 @@ margin: 1rem;
         margin:0;
         padding:  1rem;
     }
+  
 
  .hostel-detail_h1  {
   font-family: 'Open Sans', sans-serif;
