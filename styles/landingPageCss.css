@@ -38,7 +38,7 @@ margin: 1rem;
 .header-nav__items a {
     text-decoration: none;
     font-weight: bold;
-    color: rgb(52, 241, 52);
+    color:rgb(206, 84, 84);
 }
 .header-nav{
     
@@ -76,14 +76,14 @@ margin: 1rem;
   }
   .header-nav__item a:hover{
     
-    background-color:rgb(206, 84, 84);;
+    background-color:rgb(206, 84, 84);
     border-radius: 0.4rem;
-    color: white;
+    color: rgb(44, 44, 90);
     border-bottom: solid black 0.1rem;
   }
    /* Dropdown Button */
 .dropbtn {
-  background-color: #04AA6D;
+  background-color: rgba(240, 164, 120,0.6);
   color: white;
   padding: 0.4rem 0.6rem;
   font-size: 1rem;
@@ -124,7 +124,7 @@ margin: 1rem;
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: #760e36;}
   .fee-head-elements{
     border: 1px solid black;
   }
