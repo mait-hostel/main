@@ -29,7 +29,7 @@ margin: 1rem;
   }
 
   .header{
-
+    padding: 0.4rem 0;
     background-color: rgb(44, 44, 90);
   }
   .headerdiv{
@@ -63,19 +63,30 @@ margin: 1rem;
 
 }
   .header-nav__items{
+    margin: 0;
     list-style-type: none;
   }
   .header-nav__item{
-    margin-right: 2rem;
+    
     display: inline-block;
+  }
+  .header-nav__item a{
+    padding: 0.4rem 1rem;
+  }
+  .header-nav__item a:hover{
+    
+    background-color:rgb(206, 84, 84);;
+    border-radius: 0.4rem;
+    color: white;
+    border-bottom: solid black 0.1rem;
   }
    /* Dropdown Button */
 .dropbtn {
   background-color: #04AA6D;
   color: white;
-  padding: 16px;
+  padding: 0.6rem;
   font-size: 16px;
-  border-radius: 22px;
+  border-radius: 0.8rem;
 }
 
 /* The container <div> - needed to position the dropdown content */
