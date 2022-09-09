@@ -125,6 +125,12 @@ margin: 1rem;
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #760e36;}
+.FloatingText{
+  color: red;
+}
+.FloatingText:hover{
+  color: pink;
+}
   .fee-head-elements{
     border: 1px solid black;
   }

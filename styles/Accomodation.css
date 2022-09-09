@@ -1,0 +1,96 @@
+.Detail, .Header, .NavBar{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px;
+}
+.NavBar li:hover{
+  list-style: none;
+}
+.NavBar ul li{
+  margin: 0.5rem;
+}
+h4{
+  color: blue;
+}
+.Break{
+    height: 10rem;
+}
+.Name, .Location, .Distance, .Reviews, .Contact{
+    height: 1rem;
+    padding: 0rem;
+    /* margin: 0rem;  */
+}
+.wrapper {
+  text-align: center;
+  
+}
+.wrapper ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  /* For IE, the outcast */
+  zoom:1;
+  *display: inline;
+}
+.wrapper li {
+  float: left;
+  padding: 2px 5px;
+  margin: 1rem;
+  list-style: none;
+}
+.NavBar li a{
+  color: red;
+}
+.NavBar li a:hover{
+  color: hotpink;
+}
+.dropdown{
+  margin: 0.5rem;
+}
+.dropbtn {
+  background-color: rgba(240, 164, 120,0.6);
+  color: white;
+  padding: 0.4rem 0.6rem;
+  font-size: 1rem;
+  border-radius: 0.4rem;
+}
+/* .dropbtn:hover, */
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+  /* word-wrap: break-word; */
+  /* overflow: hidden; */
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd; border-radius: 10px;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #760e36;}
