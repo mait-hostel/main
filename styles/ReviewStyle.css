@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.header-nav__items a {
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(111, 230, 244);
+}
+.header-nav{
+        background-color:   rgb(93, 93, 226);
+        display: inline-block;
+        text-align: right;
+        width: 100%;
+        text-align: center;
+    
+}
+  .header-nav__items{
+    margin: 0;
+    list-style-type: none;
+  }
+  .header-nav__item{
+    
+    display: inline-block;
+  }
+  .header-nav__item a{
+    margin: 0 0.4rem;
+    padding: 0.4rem 1rem;
+  }
+  .header-nav__item a:hover{
+    
+    background-color:rgb(206, 84, 84);
+    border-radius: 0.4rem;
+    color: rgb(44, 44, 90);
+    border-bottom: solid black 0.1rem;
+  }
+   /* Dropdown Button */
+.dropbtn {
+  background-color: rgba(233, 80, 218, 0.6);
+  color: white;
+  padding: 0.4rem 0.6rem;
+  font-size: 1rem;
+  border-radius: 0.4rem;
+}
+.dropbtn:hover,
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  max-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(96, 228, 184, 0.2);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(102, 245, 235); border-radius: 10px;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #39a6e9;}
+img{
+    max-width: 100%;
+}
+.Main{
+    width: 100%;
+    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); 
+}
+.Container{
+    width: 37.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Title{
+    margin: 2.5rem, 0rem;
+}
+.Title h2{
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.Title .UnderLine{
+    width: 7rem;
+    height: 0.25rem;
+    background-color: #177a29;
+    margin: 0 auto;
+}
+.Review{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #12192c;
+    /* Additional */
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: "Open Sans", sans-serif;
+    border-radius: 1rem;
+}
+#PersonImg{
+    width: 10rem;
+    height: 10rem;
+    background-color: cover;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.5);
+    /* May be I have to change the position a bit. */
+}
+#Author{
+    font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: 10px;
+  color:#FFFB7D
+}
+#Batch{
+    text-transform: uppercase;
+  line-height: 150%;
+  margin-bottom: 10px;
+  color: #85FFBD;
+}
+#Info{
+    height: 100px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.Btn{
+    text-decoration: none;
+  border-style: none;
+  font-size: 30px;
+  margin: 0 10px;
+  color: #85FFBD;
+  cursor: pointer;
+  background-color:#12192c;
+}
+.ButtonContainer{
+  padding: 2rem;
+}
