@@ -4,7 +4,7 @@ const reviews=[
         name:"kishan",
         batch:"2021-25",
         img:
-        "/asset/Kishan.jpeg",
+        "/assets/images/Kishan.jpeg",
         text:
         "You wont regret hostel life"
     },
@@ -13,7 +13,7 @@ const reviews=[
       name: "Kapil",
       batch: "2021-25",
       img:
-        "/asset/Kapil.jpeg",
+        "/assets/images/Kapil.jpeg",
       text:
         "MAIT provides hostels for boys inside the campus. In the hostel, there are 4 blocks for MAIT and MAIMS students and a common mess inside. Rooms are well spacious. For the food quality, you can count on me. It is better than average. You will not regret this. Night out is allowed till 10pm. It has a playground that is not so big or too small. It is enough if you are not a hardcore player, So in the end, I will give a 7 out of 10 and that's all"
     },
@@ -22,7 +22,7 @@ const reviews=[
       name: "Ansh",
       batch: "2021-25",
       img:
-        "/asset/ansh.jpeg",
+        "/assets/images/ansh.jpeg",
       text:
         "Mein ni dunga review 😠"
     },
