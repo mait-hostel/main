@@ -1,8 +1,5 @@
 body{
   margin: 0;
-*{
-  font-family: 'Ubuntu', sans-serif;
-
 }
 .Detail, .Header, .NavBar{
     display: flex;
@@ -19,8 +16,6 @@ body{
 }
 h4{
   color: blue;
-  font-family: 'Combo', cursive;
-
 }
 .Break{
     height: 10rem;
@@ -28,7 +23,6 @@ h4{
 .Name, .Location, .Distance, .Reviews, .Contact{
     height: 1rem;
     padding: 0rem;
-    font-family: 'Varela Round', sans-serif;
     /* margin: 0rem;  */
 }
 .wrapper {
