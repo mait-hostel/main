@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+
+.header{
+    
+    background-color: rgb(44, 44, 90);
+    display: block;
+    margin: 0;
+    width: 77rem;
+    align-items: center;
+      margin-left:.2rem;
+    border-radius: .3rem;
+    
+    
+  }
+
+
+  .header-div_brand {
+
+    text-decoration: none;
+    color: rgb(206, 84, 84);
+    font-size: large;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0;
+    padding:1.5rem;
+       
+  }
+
+
+
+    /* Navigation links */
+
+
+    .navbar {
+        width:fit-content;
+       
+        overflow: auto;
+        display:inline-block;
+        position: absolute;
+        right:0;
+      
+       
+        
+      }
+      
+    .navbar a {
+        float: left;
+            padding: .6rem;
+            margin: 1rem;
+        color: white;
+        /* dodger blue color */
+        background-color: rgba(30,144,255);
+        border-radius: 1.2rem;
+    
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-weight: bolder;
+        
+         /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+        text-align: center; /* If you want the text to be centered */
+    
+      }
+      
+      /* Add a background color on mouse-over */
+      .navbar a:hover {
+        color:rgba(30,144,255);
+        background-color:white;
+      }
+      
+      /* Style the current/active link */
+      .navbar a.active {
+        background-color: #04AA6D;
+      }
+      
+      /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+      @media screen and (max-width: 500px) {
+        .navbar a {
+          float: none;
+          display: block;
+          width: 100%;
+          text-align: left; /* If you want the text to be left-aligned on small screens */
+        }
+      }
+
+
+
+ body {
+    font-family: 'Quicksand', sans-serif;
+    background: #1c1c1c;
+    color:#fff;
+    margin: 0;
+ }
+
+ section{
+     min-height: 100vh;
+     width:80%;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .title {
+    font-size:3rem;
+    margin:2rem 0rem; 
+ }
+
+ .faq{
+    max-width: 700px;
+    min-width: 700px;
+    margin-top:2rem;
+    padding-bottom: 1rem;
+   border-bottom: 2px solid #fff;
+   cursor:pointer;
+
+ } 
+ .question{
+    display: flex; 
+    justify-content: space-between;
+    align-items:center;
+
+ }
+ .question h3{
+    font-size: 1.8rem;
+ }
+
+ .answer{
+    max-height: 0;
+      
+    overflow: hidden;
+    transition: max-height 1.3s ease;
+    
+ }
+ .answer p {
+    padding-top:1rem;
+    line-height: 1.6;
+    font-size:1.4rem;
+ }
+
+ .faq.active .answer {
+    max-height: 300px;
+    
+ }
+
+ .faq.active svg {
+    transform: rotate(180deg);
+ }
+ svg {
+    transition:  transform .4s ease-in;
+ }
+  
+.foot_div{
+    color: white;
+    background-color: rgb(44, 44, 90);
+    text-align: center;
+
+
+
+    margin-bottom: 0;
+    padding:  1rem;    
+    display: block;
+
+    
+    
+   
+    
+}
+.div_foot{
+    position: relative;
+    bottom: 0;
+   
+}
