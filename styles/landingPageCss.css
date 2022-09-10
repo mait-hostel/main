@@ -275,17 +275,20 @@
       
         overflow-y: scroll;
         overflow-x: hidden;
-        padding-top: 2rem;
+        padding-top: 0rem;
        
     
     }
     .side-nav a{
+     
+      /* vertical-align: middle; */
+      padding-top: 1.1rem;
       font-family: 'Quicksand', sans-serif;
       font-weight:bold;
       font-size: 0.9rem;
       height: 60px;
       display: block;
-     text-align: center;
+     
      text-decoration: none;
 
     }
@@ -314,7 +317,7 @@
     }
     .side-nav ul li{
       border-bottom:1px solid black;
-     
+     text-align: center ;
       height: 60px;
       
       

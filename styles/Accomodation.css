@@ -1,3 +1,6 @@
+body{
+  margin: 0;
+}
 .Detail, .Header, .NavBar{
     display: flex;
   justify-content: center;
