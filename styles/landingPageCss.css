@@ -4,15 +4,23 @@
   body{
     background-image: url(/assets/images/contactPage_background.png);
     background-color: rgba(0,0,0,0.9);
-    margin-left: 280px;
+   
    background-position: center;
    background-attachment: fixed;
    background-repeat: no-repeat;
+   overflow-x: hidden;
+
     margin: 0 ;
     padding: 0;
   }
+  .main_wrap{
+    margin:0 auto;
+    width:100vw;
+    position:relative;
+    overflow: hidden;
+}
   .body-div{
-    padding: 0px 32px 0px 32px;
+    padding: 0px 21px 0px 21px;
     border-right: 1px solid #f1f1f1;
     margin-left: 13.5%;
     margin-right: 0rem;
@@ -28,14 +36,7 @@
     width: 99%;
   }
 
-  .icon-size{
-    background-color: white;
-    border-radius: 1em;
-    padding-bottom: 2em;
-    padding-top: 1em;
-    width: 20%;
-      height: 4em;
-  }
+ 
   /* .slideshow-container{
     position:absolute;
     z-index: 1;
@@ -68,15 +69,29 @@
   .hostel-detail a{
     text-decoration: none;
   }
+  .icon-size{
+    background-color: white;
+    border-radius: 1em;
+    padding-bottom: 2em;
+    padding-top: 1em;
+    width: 100%;
+      height: 3em;
+  }
   .list-facilities{
-    list-style-type: none;
+   background-color: rgb(164, 161, 161);
    
   }
+  .facility-div{
+    margin: 2rem 4rem;
+    width: 20%;
+    display: inline-block;
+  }
   .list-facility{
-    
+    color:rgb(37, 57, 7);
+    width: 100%;
    font-weight: bold;
-    margin-top: 2em;
-    margin-bottom: 1em;
+    /* margin-top: 2em;
+    margin-bottom: 1em; */
     display: block;
   }
   .link-divs{
@@ -229,6 +244,7 @@
       
       color: white;
     }
+ 
     .reach-us_heading{
       padding: 1rem;
       margin: 0;
