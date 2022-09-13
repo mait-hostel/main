@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  margin-top: 4rem;
 }
 .Detail, .Header, .NavBar{
     display: flex;
