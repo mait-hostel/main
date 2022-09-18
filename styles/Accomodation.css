@@ -1,6 +1,8 @@
 body{
   margin: 0;
   margin-top: 4rem;
+  background-color: rgb(239, 239, 188);
+  font-family: Quicksand;
 }
 .Detail, .Header, .NavBar{
     display: flex;
@@ -9,8 +11,13 @@ body{
   flex-direction: column;
   margin: 0px;
 }
+.NavBar li a{
+  font-size: 2rem;
+  text-decoration: none;
+}
 .NavBar li:hover{
   list-style: none;
+  font-size: 2.5rem;
 }
 .NavBar ul li{
   margin: 0.5rem;
